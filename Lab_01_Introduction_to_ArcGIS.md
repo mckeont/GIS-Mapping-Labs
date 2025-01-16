@@ -35,11 +35,9 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
     become a more advanced GIS user, setting the workspace becomes an
     important part of automating complex processes. If you have a flash
     drive, create a new workspace folder named 'Lab1'. If you do not
-    have a flash drive create a new folder in the Documents folder. (On
-    the Temple lab computers, Documents is located at
-    C:\\data\\Documents.) For future labs, create new workspace folders
-    – Lab2, Lab3, etc.
-2.  Here we will acquire the following spatial data layers for the city
+    have a flash drive create a new folder in the Documents folder, zip when
+    done and save on your personal drive or cloud storage.
+3.  Here we will acquire the following spatial data layers for the city
     of Philadelphia: schools, bike routes, and neighborhoods. We will
     download data from **PASDA** (The Pennsylvania Geospatial
     Clearinghouse), which is an example of a **geoportal**, a website
@@ -49,26 +47,26 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
     Pennsylvania State University. PASDA hosts data provided by local
     governments, federal and state agencies, nonprofits, and academic
     institutions.
-3.  Go to <http://www.pasda.psu.edu>. Under 'SEARCH BY KEYWORD(S)' enter
+4.  Go to <http://www.pasda.psu.edu>. Under 'SEARCH BY KEYWORD(S)' enter
     'Philadelphia' and press submit.
-4.  Find 2016 Philadelphia Planning - Schools, click on the link, press
+5.  Find 2016 Philadelphia Planning - Schools, click on the link, press
     'Download', which will download a file.
-5.  In addition to schools, find and download the following:
+6.  In addition to schools, find and download the following:
       - 2016 Philadelphia Streets - Bike Network
       - 2016 Philadelphia Planning - Neighborhoods
-6.  You should have downloaded 3 files:
+7.  You should have downloaded 3 files:
       - PhillyPlanning\_Schools.zip
       - PhillyPlanning\_Neighborhoods.zip
       - PhillyStreets\_Bike\_Network.zip
-7.  Notice all 3 files are .zip files, which is a single file that is
+8.  Notice all 3 files are .zip files, which is a single file that is
     composed of one or more individual files that have been compressed
     to a smaller storage size for convenience. The lab computers will
     automatically save the zip files to the Downloads folder. Copy or
     move these files to your Lab1 workspace folder.
-8.  Unzip the archive. The lab computers have 7-Zip installed on them.
+9.  Unzip the archive. The lab computers have 7-Zip installed on them.
     In File Explorer, right-click the file and choose **7-Zip → Extract
     Here or 7-Zip → Extract to 'folder\_name'**.
-9.  Unzip each of the .zip files using the 7-zip application (or another
+10.  Unzip each of the .zip files using the 7-zip application (or another
     appropriate application) and extract the files to your workspace
     folder.
 
