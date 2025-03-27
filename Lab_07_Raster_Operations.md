@@ -73,7 +73,7 @@ These steps should yield two zip files:
 
 We will acquire the land cover data from the the [Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/viewer/) (<https://www.mrlc.gov/viewer/>).
 
-1.  Go to the MRLC viewer, and in the **Dataset** tree, make sure only **2016 CONUS Land Cover** is checked. Uncheck all other boxes.
+1.  Go to the MRLC viewer, and specify the extent to Continental US.
 
 ![](images/MRLC.png)
 
