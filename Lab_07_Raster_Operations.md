@@ -75,11 +75,11 @@ We will acquire the land cover data from the the [Multi-Resolution Land Characte
 
 1.  Go to the MRLC viewer, and in the **Dataset** tree, make sure only **2016 CONUS Land Cover** is checked. Uncheck all other boxes.
 
-![](images/lab7_fig5.png)
+![](images/MRLC.png)
 
 2.  On the map, click the **Open Data Download Tool** button.  This will open a side panel that will help you select the area from which you will download data.
 
-![](images/lab7_fig6.png)
+![](images/MRLC2.png)
 
 3. Zoom in on the map to southeastern Pennsylvania.  Draw a box that completely contains our study area by right-clicking to place one corner of the box, and then right-clicking again to place the second.  
 
