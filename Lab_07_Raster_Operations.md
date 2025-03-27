@@ -23,7 +23,7 @@ boundary data, for Delaware County, Pennsylvania.
 From [PASDA](http://www.pasda.psu.edu/), use the search function to find
 and download the following file:
 
-  - Pennsylvania municipality boundaries (2020)
+  - Pennsylvania municipality boundaries (2025)
 
 **Next, acquire the elevation data.**
 
