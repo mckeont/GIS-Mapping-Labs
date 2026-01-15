@@ -1,4 +1,4 @@
-# GUS-3062/5062-Fundamentals of Geographic Information systems
+# Fundamentals of Geographic Information systems
 ## Lab 1. Introduction of ArcGIS Pro ([link](Lab_01_Introduction_to_ArcGIS.md))
 1. To introduce ArcGIS Pro and its basic data management, display, and analysis components. 
 2. To learn how to work with map layers, query attribute tables and geographic features, create maps, and design and execute a simple GIS analysis. 
