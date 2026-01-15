@@ -31,8 +31,7 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
     project folder, the folder where you store your data files,
     including both inputs and outputs. Thus, when you see a reference to
     'your workspace' here, you can think of it as 'your Lab1 data
-    folder'. Using the term 'workspace' is more concise, and when you
-    become a more advanced GIS user, setting the workspace becomes an
+    folder'. Setting a workspace becomes an
     important part of automating complex processes. If you have a flash
     drive, create a new workspace folder named 'Lab1'. If you do not
     have a flash drive create a new folder in the Documents folder, zip when
