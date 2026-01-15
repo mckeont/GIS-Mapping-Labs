@@ -12,7 +12,7 @@ following the tutorial.
 
 # TUTORIAL
 ## Prepare the ArcGIS Pro
-In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the lab, although there are some other open-sourced options, like [QGIS](https://qgis.org/en/site/). You can access ArcGIS Pro through the university's computer or install the ArcGIS Pro on your own computer (preferred). 
+In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the lab, although there are some other open-sourced options, like [QGIS](https://qgis.org/en/site/). You can access ArcGIS Pro through the university's computer or install ArcGIS Pro on your own computer. 
 
 1. **Install ArcGIS Pro on your computer**:
    	Go to ArcGIS online: https://www.arcgis.com/index.html#
