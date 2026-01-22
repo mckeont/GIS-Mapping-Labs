@@ -93,7 +93,7 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
 
 8.  Click once on the neighborhoods layer (PhillyPlanning_Neighborhoods.shp) and click on the **Geography** tab at the top of the details pane on the right so
     that the layer appears like this:  
-	![Map of the Philadelphia neighborhoods](../images/philaNeighborhoods.png)
+	![Map of the Philadelphia neighborhoods](../images/philaNeighborhoods.png).
 
     
 9.  Switch to the **Table** tab. Now you see the attribute table
