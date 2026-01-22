@@ -570,7 +570,7 @@ unique values found in the `FACIL_NAME` column of the schools layer. Scroll down
 click **Add Clause**.  Select 'And' in the first box, `TYPE_SPECI` in the second box, 'is equal to' in the third box, and 'District' in the last box. Click Run. This will select
     only schools run by the Philadelphia School District (as opposed to
     charter, private, or Archdiocese schools) with enrollments greater
-    than 600 students. There should be 129 schools selected.
+    than 500 students. There should be 129 schools selected.
 15. Close the **Select Layer by Attributes** pane, clear your selection, and    close
     the attribute table.    
 
