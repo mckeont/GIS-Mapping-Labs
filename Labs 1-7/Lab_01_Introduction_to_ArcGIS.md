@@ -73,7 +73,7 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
 1.  Open ArcGIS Pro. You can navigate to ArcGIS Pro through the Start
     button at the lower left of the screen, then go to ArcGIS.
 
-2.  The ArcGIS Pro start page will appear.  In the **New** menu, under **Blank Templates**, click **Catalog**. 
+2.  The ArcGIS Pro start page will appear. Click **Catalog**. 
 ![](images/create_catalog_template.png)
 
 3.  The **Create a New Project** dialog will appear. Name your project 'Lab1'.  To specify the project's location, navigate to the location of your Lab1 workspace folder.  Click on the folder named 'Lab1' and click OK. 
