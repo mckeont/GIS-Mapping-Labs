@@ -97,9 +97,9 @@ workspace folder. Unzip all of the zip files.
     folder and into the folder containing the DRWI\_Municipalities2016
     files that compose the shapefile.
 2.  Right click on the DRWI\_Municipalities2016.prj file and select **Edit with Notepad++**. (The .prj file can be viewed with *any* text editor.
-    Notepad++ is installed on CLA computers, but if you are working
-    elsewhere, you can open the file with Notepad, WordPad, etc.) Note
-    the file is simply a text file that contains the CRS information:  
+    If Notepad++ is not installed on your computer, you can open the file with Notepad, WordPad, or another text editor.
+    
+    This file is simply a text file that contains the CRS information:  
     `GEOGCS["GCS_North_American_1983", DATUM["D_North_American_1983",
     SPHEROID["GRS_1980",6378137.0,298.257222101]],
     PRIMEM["Greenwich",0.0], UNIT["Degree",0.0174532925199433]]`
@@ -178,7 +178,7 @@ is in decimal degrees, but currently undefined) together in ArcGIS.
         DRWI\_Municipalities2016 data set.
       - For **Coordinate System**, click on the globe button to the right. ![](images/projection.png) In
         the **Coordinate System** dialog box, navigate to
-        Geographic Coordinate Systems/North America/USA and territories
+        Geographic Coordinate Systems/North America/United States
         and click `NAD 1983`. Press OK. The text box should now read
         `GCS\_North\_American\_1983`.
 5.  Press Run.
