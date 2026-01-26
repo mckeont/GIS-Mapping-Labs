@@ -398,7 +398,7 @@ should be cited in the text.
 ## Data
 
 Several data sets are provided to you in the
-[Lab\_4\_assignment.zip](data/Lab_4_assignment.zip) file.
+[Lab\_4\_assignment.zip](../data/Lab_4_assignment.zip) file.
 
   - Police\_Districts\_Chicago is a polygon shapefile of the police
     districts in Chicago. The `DISTRICT` field is a unique number used
