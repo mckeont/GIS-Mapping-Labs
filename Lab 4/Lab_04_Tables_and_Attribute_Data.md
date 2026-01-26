@@ -13,7 +13,7 @@ California and Chicago, Illinois.
 ## Acquiring the Data
 
 You are provided the data for this lab in the
-[Lab\_4\_tutorial.zip](data/Lab_4_tutorial.zip) file, which includes the
+[Lab\_4\_tutorial.zip](../data/Lab_4_tutorial.zip) file, which includes the
 following files:
 
   - SF\_Tracts is a polygon shapefile representing the US Census Bureau
