@@ -88,7 +88,7 @@ workspace folder. Unzip all of the zip files.
     latitude/longitude – a spherical coordinate system.
 12. Close the **Layer Properties** box. Note the coordinate position of 
     the mouse at the bottom of the view window is in decimal degrees.
-    ![](images/lab2_fig2.png)
+    ![](../images/lab2_fig2.png)
 13. Close ArcGIS Pro, and save the changes to your project.
 
 ## Understanding How the CRS is Encoded in the .prj File
@@ -142,7 +142,7 @@ is in decimal degrees, but currently undefined) together in ArcGIS.
 
 1.  Go to the map that contains the street centerline data. Then 
     add the municipalities data.
-2.  You should see an error message:  ![](images/lab2_fig3.png)
+2.  You should see an error message:  ![](../images/lab2_fig3.png)
     The message indicates that the CRS for the municipalities data set
     is undefined. 
 3.  At this point, the software has included both data sets in the view
@@ -153,7 +153,7 @@ is in decimal degrees, but currently undefined) together in ArcGIS.
     layer and click **Zoom to Layer**. You will see it appear. Do the same
     for the street centerlines data. You will also see it appear. So,
     both layers are available in the map window.
-5.  Now click the **Full Extent** button ![](images/full_extent.png)
+5.  Now click the **Full Extent** button ![](../images/full_extent.png)
  that zooms so that you can see all
     data sets in the view window simultaneously. Both data sets are
     displayed, but the municipalities is basically invisible, as the
@@ -169,14 +169,14 @@ is in decimal degrees, but currently undefined) together in ArcGIS.
     undefined municipalities data, which will recreate the .prj file. To
     do this we will use the **Define Projection** tool.
 2.  Open the **Geoprocessing** pane by clicking on the **Tools** button
-    ![](images/tools.png)
+    ![](../images/tools.png)
     with the red toolbox on it. Click on the **Toolboxes** tab in the pane.
 3.  Navigate to Data Management Tools/Projections and Transformations
     and click on the **Define Projection** tool.
 4.  In the **Define Projection** pane:
       - For **Input Dataset or Feature Class** choose the
         DRWI\_Municipalities2016 data set.
-      - For **Coordinate System**, click on the globe button to the right. ![](images/projection.png) In
+      - For **Coordinate System**, click on the globe button to the right. ![](../images/projection.png) In
         the **Coordinate System** dialog box, navigate to
         Geographic Coordinate Systems/North America/United States
         and click `NAD 1983`. Press OK. The text box should now read
@@ -195,7 +195,11 @@ with geographic data tables being treated as layers that are stacked on
 top of each other.
 
 ![Source: Bolstad, Paul. 2016. *GIS
-Fundamentals*.](images/GisLayerCakeBolstad.png)
+Fundamentals*.](../images/GisLayerCakeBolstad.png)
+
+![](../images/create_catalog_template.png)
+
+../images/GisLayerCakeBolstad.png
 
 In ArcGIS, spatial layers are added to a map. As we will see,
 multiple map frames can be added to a single layout. 
@@ -210,7 +214,7 @@ a new tab will appear with a new name of 'Map1', 'Map2', and so on. The
 map name can be changed to something more descriptive by the user, and you
 will probably want to do so if you create multiple maps.
 
-![](images/contents_no_layers.png)
+![](../images/contents_no_layers.png)
 
 Initially, a map has a default **CRS**, or coordinate \[reference\]
 system, associated with it: `WGS 1984 Web Mercator (Auxilliary Sphere)`. This CRS comes from the default basemap layers. You can confirm this by checking the map properties.
@@ -283,7 +287,7 @@ CRS.
 15. Select `NAD 1983 StatePlane Pennsylvania South FIPS 3702 (US Feet)`
     from the list and hit OK.
 
-![](images/lab2_fig4.png)
+![](../images/lab2_fig4.png)
 
 The streets network and Philly borders should now look 'right'. This is
 because SP Pennsylvania South is a **conformal** projection, which means
@@ -305,12 +309,12 @@ Pennsylvania South CRS. If it is not, please follow the steps above to
 change the CRS of the data frame.
 
 1.  Zoom in to Philadelphia and uncheck the streets layer in the **Contents** pane.
-2.  On the **Map** tab, Click the **Measure** button ![](images/measure_button.png). Your cursor should turn into a carpenter’s square,
+2.  On the **Map** tab, Click the **Measure** button ![](../images/measure_button.png). Your cursor should turn into a carpenter’s square,
     and the **Measure** panel should appear over your map.
-3.  In the **Measure** panel, click the **Measure Features** button. ![](images/measure_features.png).
+3.  In the **Measure** panel, click the **Measure Features** button. ![](../images/measure_features.png).
 4.  Click the dropdown menu, and set the
     measurement units to Acres.  
-    ![](images/lab2_fig5.png)
+    ![](../images/lab2_fig5.png)
 5.  Click on Philadelphia with the cursor. The **Measure** panel should now
     display the perimeter and area of Philadelphia – 91,347.93167 acres.
     Close the measure tool.
@@ -420,7 +424,7 @@ First, let’s add and style the data:
 When you are done with these steps (add data, set symbology, set
 labels), your map canvas should look something like this:
 
-![](images/lab2_fig6.png)
+![](../images/lab2_fig6.png)
 
 ### Creating a Multi-Frame Layout
 
@@ -436,7 +440,7 @@ instructions below, we will get rid of them.
     
 2.  On the **Insert** tab, click on **Map Frame** and select the current
     extent option for your map. This will insert the map as it is currently
-    visible in the open map view. ![](images/lab2_fig7.png) If you have multiple maps in your project, make sure 
+    visible in the open map view. ![](../images/lab2_fig7.png) If you have multiple maps in your project, make sure 
     to choose the map that contains the Natural Earth data. Click and
     drag a rectangle where you would like to place your map on the layout.
     
@@ -446,7 +450,7 @@ instructions below, we will get rid of them.
     the top and bottom of the page for a title, credits, etc.
 
 4.  Open the map frame properties, and select the **Display** tab on the pane.
-    ![](images/lab2_fig8.png)
+    ![](../images/lab2_fig8.png)
     
 5.  In the **Border** section, set the symbol to 0pt. 
 
@@ -456,7 +460,7 @@ instructions below, we will get rid of them.
 
 7.  Position the four map frames so that they form a 2x2 grid.
     
-    ![](images/lab2_fig9.png)
+    ![](../images/lab2_fig9.png)
 
 8.  On the **Insert** tab, click **New Map** 3 times. This will create 3 new     blank maps. Remove the basemaps from each one. On your original Natural
     Earth map, select all the layers in the **Contents** pane, copy them, and then click on the map name in the **Contents**
@@ -477,14 +481,14 @@ map in the **Contents** also changes the name of the map in its tab.
 
 10.  In your layout, click on each map frame in the window to activate it and     modify its properties. Note that when you click on the map frame in the     window, it also become bolded in the **Contents** pane. Under the **Options** 
     tab in the **Format Map Frame** pane, change each map frame to one of the four maps you created. 
-    ![](images/lab2_fig10.png)
+    ![](../images/lab2_fig10.png)
 
 11. You may need to change the zoom levels on your maps so that they are 
     not 'cut off' at the edge of the map frames. To do this, activate each map frame by right clicking on it in the window or in the **Contents** pane, and fix the zoom level while the map frame is activated. Note, however, that it is not possible to display the North or South pole in the World Mercator projection, so you must pick a reasonable cutoff for this one. When you are done, go to the **Layout** tab and click **Close Activation**. 
 
 When all your map frames are scaled appropriately, your map may look something like this. You do not have to put the specific projections in the same position, and one of the projections will be of your own choice. 
 
-![](images/lab2_fig11.png)
+![](../images/lab2_fig11.png)
 
 ### Map Elements
 
