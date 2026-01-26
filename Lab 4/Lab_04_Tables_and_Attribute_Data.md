@@ -35,7 +35,7 @@ Move all files to your workspace folder, and unzip any zip files.
 
 An attribute table in ArcGIS is composed of **records** (rows) and **fields** (columns):
 
-![](images/lab4_fig1.png) 
+![](../images/lab4_fig1.png) 
 
 Explore the SF\_tracts and the TOTAL\_POPULATION data sets in
 the catalog view.
@@ -46,7 +46,7 @@ a grid icon indicating it is tabular data (with no spatial information)
 and the SF\_Tracts layer has an icon indicating it is a polygon spatial
 data layer.
 
-![](images/lab4_fig2.png) 
+![](../images/lab4_fig2.png) 
 
 Right-click on each file in the **Contents** pane. You will see that you have different menu options for tables versus spatial data layers.
 
@@ -62,12 +62,12 @@ Right-click on each file in the **Contents** pane. You will see that you have di
 
 3.  At the bottom of the table it should indicate that 0 out of 195
     records (each record is a census tract) are currently selected.  
-    ![](images/lab4_fig3.png) 
+    ![](../images/lab4_fig3.png) 
 
 Right-click on the Total\_Pop field name. You should see something like
 this:
 
-![](images/lab4_fig4.png) 
+![](../images/lab4_fig4.png) 
 
 The options you see are tools you can use to manipulate the data
 contained in the field you’ve selected in various ways. For now, explore
@@ -129,7 +129,7 @@ such as **Double** and **Float**.
 Hover over the name of the `GEOID2` field to get some information about
 the field.  Note the data type, which is double (a numeric type).
 
-![](images/lab4_fig5.png) 
+![](../images/lab4_fig5.png) 
 
 Now open the Total\_Population table. Find the `GEOID_1` field. This
 field is also a unique identifier for each tract. Even though the name
@@ -166,7 +166,7 @@ To execute the join operation, in the **Contents** pane, right-click on SF\_Trac
 3.  For **Join Table**, choose the Total\_Population table
 4.  For **Output Join Field**, choose `GEOID_1` (the foreign key identifying each tract in the Total\_Population table).  
 
-![](images/lab4_fig6.png) 
+![](../images/lab4_fig6.png) 
 
 5.  Press Run.
 
@@ -174,7 +174,7 @@ Open up the attribute table in SF\_Tracts and scroll to the right. You
 should see that the fields from the Total\_Population table are now
 joined to the SF\_Tracts attribute table.
 
-![](images/lab4_fig7.png) 
+![](../images/lab4_fig7.png) 
 
 Note that while the join is displayed as though the two tables have
 become one, the join is not permanent, i.e. the storage of the
@@ -183,7 +183,7 @@ by hovering over an attribute from the target table, then doing the same
 for an attribute from the join table. The field properties will show 
 the 'owner' of the field.
 
-![](images/lab4_fig8.png)
+![](../images/lab4_fig8.png)
 
 To permanently store the SF\_Tracts layer with the joined attributes,
 export the layer to a new shapefile. Right-click on SF\_Tracts in the
@@ -231,7 +231,7 @@ output file in this location.
 
 The new table should be added to the **Contents** pane. Open it to view the attributes.
 
-![](images/lab4_fig9.png)
+![](../images/lab4_fig9.png)
 
 Notice there are 41 records—one record for each neighborhood.
 
@@ -269,7 +269,7 @@ Check to see if your join was successful by opening the SF\_Dissolved
 attribute table and seeing if the `SUM_TOTAL_POP` field (it may be shortened by ArcGIS to something like `SUM_Total`) is there and the
 population data are displayed.
 
-![](images/lab4_fig10.png) 
+![](../images/lab4_fig10.png) 
 
 To preserve the join permanently, export the SF\_Dissolved layer to its
 own layer and call the new layer SF\_Dissolved\_POP. Add it to the map
@@ -287,7 +287,7 @@ First, we need to create a new field to hold the area value:
 
 1.  Open the attribute table for SF\_Dissolved\_POP.
 2.  In the table, click on the **Add Field** button
-    ![](images/lab4_fig11.png) in the upper left hand
+    ![](../images/lab4_fig11.png) in the upper left hand
     corner of the table. This will open up the list of fields for the table.
 3.  In the highlighted row, replace `Field` with `Area_km` and set the data type to **Double**.
 4.  Close the fields box, and save the changes.
@@ -301,13 +301,13 @@ To calculate the area of each neighborhood:
     select **Calculate Geometry**. 
 2.  In the **Calculate Geometry Attributes** pane, choose `Area_km` as the target field with the `Area` property.
 3.  For **Area Unit** choose 'Square kilometers'.
-    ![](images/lab4_fig12.png) 
+    ![](../images/lab4_fig12.png) 
 4.  Click Run.
 
 You should see that the `Area_km` column has been updated with
 the calculated values:
 
-![](images/lab4_fig13.png) 
+![](../images/lab4_fig13.png) 
 
 Now that we have the area of each neighborhood encoded, we can calculate
 the population density of each neighborhood:
@@ -320,12 +320,12 @@ the population density of each neighborhood:
     a. Double click on `SUM_Total_` in the list of **Fields** to add it to the equation text box.
     b. Click on the '/' operator to add it to the box.
     c. Double-click on `Area_km` to add it to the box.
-    ![](images/lab4_fig14.png) 
+    ![](../images/lab4_fig14.png) 
 
 Click Run. You should see that the `popden` field has been updated with
 the calculated values, representing people per square kilometer:
 
-![](images/lab4_fig15.png) 
+![](../images/lab4_fig15.png) 
 
 You have now encoded the population density for each neighborhood in San
 Francisco.
