@@ -183,8 +183,7 @@ is in decimal degrees, but currently undefined) together in ArcGIS.
         `GCS_North_American_1983`.
 5.  Press Run.
 6.  When the **Define Projection** function is finished close the 
-    Geoprocessing pane. The two layers should now display together in 
-    the map window.
+    Geoprocessing pane. 
 7.  Open the properties for the municipalities data file. It should
     indicate the CRS is now defined as `NAD 1983`. Close
     the box.
