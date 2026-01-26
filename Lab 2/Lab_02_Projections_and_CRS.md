@@ -180,7 +180,7 @@ is in decimal degrees, but currently undefined) together in ArcGIS.
         the **Coordinate System** dialog box, navigate to
         Geographic Coordinate Systems/North America/United States
         and click `NAD 1983`. Press OK. The text box should now read
-        `GCS\_North\_American\_1983`.
+        `GCS_North_American_1983`.
 5.  Press Run.
 6.  When the **Define Projection** function is finished close the 
     Geoprocessing pane. The two layers should now display together in 
