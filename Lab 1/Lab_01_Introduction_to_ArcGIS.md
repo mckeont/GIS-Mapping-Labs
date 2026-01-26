@@ -74,7 +74,7 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
     button at the lower left of the screen, then go to ArcGIS.
 
 2.  The ArcGIS Pro start page will appear. Click **Catalog**. 
-![](images/create_catalog_template.png)
+![](../images/create_catalog_template.png)
 
 3.  The **Create a New Project** dialog will appear. Name your project 'Lab1'.  To specify the project's location, navigate to the location of your Lab1 workspace folder.  Click on the folder named 'Lab1' and click OK. 
 
@@ -83,7 +83,7 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
 5.  The catalog view will open, showing the items contained within your new project.  In the **Contents** pane on the left side, under the **Project** heading, double-click on **Folders**, and then double-click on the 'Lab1' folder.
 
 6.  Clicking on a folder in the **Contents** pane will show the files contained in that folder in the catalog view window. You will be able to see each spatial data layer you've downloaded, something like this:
-    ![](images/lab1_fig1.png)
+    ![](../../images/lab1_fig1.png)
     
 7. Each of these spatial data layers is a **shapefile**, which is a
     particular GIS file format. There are other such formats, but
@@ -92,7 +92,7 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
     **point** layer, and the bike network file is a **line** layer.
 
 8.  Click once on the neighborhoods layer (PhillyPlanning_Neighborhoods.shp) and click on the **Geography** tab at the top of the details pane on the right so that the layer appears like this:  
-	![Map of the Philadelphia neighborhoods](../images/philaNeighborhoods.png).
+	![Map of the Philadelphia neighborhoods](../../images/philaNeighborhoods.png).
 
     
 9.  Switch to the **Table** tab. Now you see the attribute table
@@ -125,19 +125,19 @@ In this class, we are going to use the commercial GIS desktop ArcGIS Pro for the
 2.  A new map will appear in a map view tab with two default basemap layers. 
 
 3.  On the ribbon, click the **Map** tab, then click the **Add Data** button.
-![](images/add_data.png)
+![](../images/add_data.png)
 
 4. In the **Add Data** browser window, navigate to your workspace folder and add the neighborhoods, schools, and bike network data layers to the map. 
 
 5.  After adding the files, it should look something like this (the colors may be different):
-![](images/lab1_fig3.png)
+![](../images/lab1_fig3.png)
 
 > **Contents pane**
 > 
 > The left pane in ArcGIS Pro is called the Contents pane.  When a map 
 > view is active, the **Contents** pane lists all the map layers found in the 
 > map window and shows what the geographic features in each map layer 
-> represent (points, lines, polygons, images, tables).  The **Contents** pane 
+> represent (points, lines, polygons, ../images, tables).  The **Contents** pane 
 > helps you manage the display order of map layers and symbols used to represent 
 > layers, as well as set the display and other properties (e.g. color, 
 > line thickness) for each map layer.  It is also the place where you can 
@@ -164,7 +164,7 @@ At the top of the **Contents** pane is a toolbar that controls how the layers ar
 
 In a new map, the **List By Drawing Order** button should be selected:
 
-![](images/contents_drawing_order.png)
+![](../images/contents_drawing_order.png)
 
 1.  Select the **List By Drawing Order** button if it is not already
     selected (if, for example, you have done the steps out of order, or someone used this computer previously).
@@ -198,7 +198,7 @@ In a new map, the **List By Drawing Order** button should be selected:
 ## Saving a Project File
 
 1.  Click the **Save** icon in the top toolbar (Keyboard shortcut: Ctrl+S)
-![](images/save_project.png) 
+![](../images/save_project.png) 
 2.  Close the ArcGIS Pro software completely.
 
 ## Opening your ArcGIS project file (.aprx file)
@@ -311,7 +311,7 @@ links when working with GIS.
     but the source data is not at the expected location. Any layer
     properties, such as the color of polygon features, are preserved,
     even if ArcGIS Pro can’t find the polygons to display\!  
-    ![](images/lab1_fig4.png)
+    ![](../images/lab1_fig4.png)
     
 3.  In the **Catalog** pane, click on the red exclamation point next to any of the
     missing data layers. 
@@ -346,7 +346,7 @@ your Lab1 map.
     **Symbology** in the drop-down menu. (You can also single click on the layer 
     click on the contextual **Appearance** tab on the ribbon, and then click 
     on the **Symbology** button.) 
-    ![](images/symbology.png)
+    ![](../images/symbology.png)
 3.  The **Symbology** pane will appear on the right side of the screen. 
 4.  Click on the box next to **Symbol** that shows a preview of the current polygon symbology for the neighborhoods layer.  This will open the **Format Polygon Symbol** mode. 
 5.  Click on the **Properties** tab.  The **Appearance** section will allow you to customize the look of the polygon symbology.
@@ -370,7 +370,7 @@ your Lab1 map.
 
 > **Using the Ribbon Tabs and Panes**
 >
->![](images/ribbon.png)
+>![](../images/ribbon.png)
 >
 > ArcGIS Pro uses a **ribbon** to display its main tools and options that can
 > be used in your project.  We have already used several ribbon tabs to 
@@ -396,13 +396,13 @@ mouse and keyboard. Let’s try to get info about the neighborhoods.
 1.  Turn off all layers except the neighborhoods and the basemap layers.
 2.  Click on the **Map** tab on the ribbon.
 3.  Hover over the **Explore** button.  This will show you how to use your mouse to move around the map and identify features in popups. 
-![](images/explore.png)
+![](../images/explore.png)
 4.  The keyboard shortcuts give you additional movement options that can 
 be helpful for when your mouse is engaged in a different operation.
 5.  Left-click on one of the neighborhoods. A popup will open that shows you the
 attribute values from the attribute table for that neighborhood, such as its
 name. 
-![](images/popup.png)
+![](../images/popup.png)
 6.  To change the layer displayed in the popup, click the **Explore** drop-down button, and
 a menu will appear with different popup display options. Turn on the other
 map layers and click on features to display their attribute data.
@@ -429,7 +429,7 @@ The map extent tools allow you to navigate through map extents. A map
 extent defines the geographic boundaries for displaying map layers
 within a map window. 
 
-![](images/extent_tools.png)
+![](../images/extent_tools.png)
 
 **Note:** If you have an active basemap layer on your map, the 
 **Full Extent** tool will display the entirety of the basemap, which covers the 
@@ -442,7 +442,7 @@ on that layer in the **Contents** pane and select **Zoom to Layer**.
 
 How big is Philadelphia?
 
-1.  Click the **Measure** button ![](images/measure_tool.png) 
+1.  Click the **Measure** button ![](../images/measure_tool.png) 
 on the **Map** tab to open the **Distance** tool.
 2.  When the measure window opens, click on the units dropdown menu (its
     down arrow), and select 'Miles'.
@@ -463,11 +463,11 @@ data for counties or census tracts, disease counts by health district).
 
 1.  Turn off all layers except for schools.
 2.  Right-click the schools layer in the **Contents** pane and select **Attribute Table** from the menu.  
-    ![](images/attribute_table.png)
+    ![](../images/attribute_table.png)
 
 The table containing the records for schools should open below the map window. This is same table you viewed earlier in the catalog view.
 
-![](images/attribute_table_window.png)
+![](../images/attribute_table_window.png)
 
 1.  The attribute fields names appear at the top. Scroll across the
     table to view them all. Some important fields are:
@@ -529,17 +529,17 @@ Manual Selection:
     table and in the map (it is adjacent to Temple University Main
     Campus). Note that at bottom of the table it should indicate 1 out
     of 550 schools are selected.  
-    ![](images/lab1_fig5.png) 
+    ![](../images/lab1_fig5.png) 
 4.  Clear the selection by clicking the **Clear** button
-    ![](images/clear_selection.png) on the attribute table or
+    ![](../images/clear_selection.png) on the attribute table or
     on the **Map** tab.
-    ![](images/clear_selection_ribbon.png)
+    ![](../images/clear_selection_ribbon.png)
 
 Attribute Query:
 
 1.  With the attribute table open and active, click on the contextual **View** tab on the ribbon and 
 click the **Select by Attributes** button.
-    ![](images/select_by_attributes.png)
+    ![](../images/select_by_attributes.png)
 2.  The **Select Layer by Attribute** pane will open up that allows you to make
 a query statement. We will create a query that states which schools will be selected based on some criteria, in this example, the school with the name 'Dunbar, Paul Laurence'.
 3.  In the **Select Layer by Attributes** Geoprocessing pane, make sure that **Input Rows** is set
@@ -591,14 +591,14 @@ As an example, we will get statistics from the schools attribute table:
     **Statistics**.
 3.  On the **Statistics** mode of the Chart Properties pane, you’ll see information about the
     values in the field whose heading you clicked.  
-    ![](images/statistics_pane.png) 
+    ![](../images/statistics_pane.png) 
 4.  Note the statistics, e.g. minimum, maximum, mean, etc. The sum is
     the sum of the row values in the `ENROLLMENT` field for all the
     schools, i.e. the total number of students in all schools – 231,981
     students.
 5.  The **Statistics** tool will also generate a histogram in the table area
     that shows the distribution of the values in the `ENROLLMENT` field.
-    ![](images/statistics_histogram.png)
+    ![](../images/statistics_histogram.png)
 6.  In the table area, switch back to the schools layer attribute table.
     Using **Select by Attributes**, select only the private schools. There 
     should be 173 schools selected.
@@ -606,12 +606,12 @@ As an example, we will get statistics from the schools attribute table:
     a column in the side pane for the **Selection** as well as the entire **Dataset**.  We 
     can compare the summary statistics for the entire schools layer to our
     selection of private schools.
-    ![](images/statistics_pane2.png)
+    ![](../images/statistics_pane2.png)
 8.  Note that the new histogram now contains an overlay of a separate
     histogram for just our selected features.  We can change the histogram
     display to show only the selected features by toggling on or off the
     **Filter: Selection** button in the histogram toolbar.
-    ![](images/statistics_histogram2.png) 
+    ![](../images/statistics_histogram2.png) 
 
 ## Graphical Selection
 
@@ -622,11 +622,11 @@ features. The **Select Features** tool works using a single graphic that
 you interactively digitize (draw) as part of the selection process.
 
 1.  Click the **Select** drop-down menu, 
-    ![](images/select.png), then click **Rectangle**  
-    ![](images/rectangle.png)
+    ![](../images/select.png), then click **Rectangle**  
+    ![](../images/rectangle.png)
 2.  Using the cursor draw a rectangle around a set of schools, say, the
     schools in West Philadelphia.  
-    ![](images/lab1_fig6.png) 
+    ![](../images/lab1_fig6.png) 
 3.  Examine the selected records on the map and in the schools attribute
     table.
 4.  You can also perform a graphical selection using a circle or other
@@ -643,7 +643,7 @@ located within 250 feet of the bike network.
 1.  Turn on the schools and bike network layers (neighborhoods should be
     off).
 2.  On the **Map** tab, choose **Select by Location**.  
-    ![](images/select_by_location.png)
+    ![](../images/select_by_location.png)
 3.  On the **Select Layer By Location** pane, set the following parameters:
       - **Input Features:** PhillyPlanning\_Schools (since you want to
         select schools)
@@ -651,7 +651,7 @@ located within 250 feet of the bike network.
       - **Selecting Features:** PhillyStreets\_Bike\_Network
       - **Search Distance:** 250 Feet  
       - **Selection Type:** New Selection
-      ![](images/lab1_fig7.png)
+      ![](../images/lab1_fig7.png)
 4.  Press Run.
 5.  You should see 140 of the 550 schools selected. Open the attribute
     table for the schools layer to see how many schools are selected.
@@ -681,14 +681,14 @@ students (second selection).
     1,000.  Click Run.  There should be 15 schools selected, which are both 
     charter schools and with enrollments greater than 1,000 students.
     
-    ![](images/lab1_fig8.png)
+    ![](../images/lab1_fig8.png)
 
 Now, we will select a set of features from a set of selected source
 features – the neighborhoods that contain the selected schools.
 
 1.  Close the schools attribute table, but keep the 15 charter schools
     selected.  
-    ![](images/lab1_fig9.png)
+    ![](../images/lab1_fig9.png)
 2.  Open **Select By Location**.
       - For **Input Features** choose the neighborhoods layer.
       - For **Relationship** choose Contains. This spatial
@@ -700,11 +700,11 @@ features – the neighborhoods that contain the selected schools.
         will apply only to the selected schools.
         (Make sure the **Search Distance** box is blank)
       - Press Run.
-      ![](images/lab1_fig10.png)
+      ![](../images/lab1_fig10.png)
 
 There should be 10 out of 48 neighborhoods selected.
 
-![](images/lab1_fig11.png)
+![](../images/lab1_fig11.png)
 
 ## Creating a New Map Layer from a Selection of Features
 
@@ -778,12 +778,12 @@ the design process when you are trying out different ideas.
 2.  Make sure you are viewing the full extent of your data (press the
     full extent button to be sure). Your canvas should look something
     like this (your colors may be different):  
-    ![](images/lab1_fig12.png)
+    ![](../images/lab1_fig12.png)
 3.  Add a layout by clicking the **New Layout** button on the **Insert** tab.  
     A popup menu will prompt you to choose a 
     page size for your document.  Choose the first option under the 
     **ANSI - Portrait** section: Letter, 8.5 x 11". 
-    ![](images/lab1_fig13.png)
+    ![](../images/lab1_fig13.png)
     
     
     On the **Insert** tab, click on **Map Frame** and select the current
@@ -794,7 +794,7 @@ the design process when you are trying out different ideas.
     a map frame that will contain your current map, click on the **Insert**
     tab, then click on the **Map Frame** button.  In the drop-down, under
     **Map**, select the current extent option for your map. Then click and drag a rectangle on your blank layout to insert the map frame.
-    ![](images/lab1_fig14.png)
+    ![](../images/lab1_fig14.png)
 5.  Notice that a new **Layout** tab has appeared on the ribbon where the 
     **Map** tab was previously located. This tab has a **Navigate** tool,
     similar to the **Explore** tool on the **Map** tab, and other familiar 
@@ -803,10 +803,10 @@ the design process when you are trying out different ideas.
     magnifier on a page) to distinguish it from the navigation tools in
     the Map tab. Experiment with these tools to move around the page.
     When you are done, hit **Full Extent** to see the entire layout.
-    ![](images/lab1_fig15.png)
+    ![](../images/lab1_fig15.png)
 6.  To resize the map image on the page, you will need to 'activate' the 
     map frame. On the **Layout** tab, click the **Activate** button. 
-    ![] (images/activate.png)
+    ![] (../images/activate.png)
 7.  The **Map** tab will reappear and you will be able to navigate using the
     Explore tools that you used in the map tool. Zoom in on the map to
     make sure that Philadelphia fills most of the map frame. Note that if
@@ -815,7 +815,7 @@ the design process when you are trying out different ideas.
     activated map frame, click on the highlighted **Layout** tab, and click 
     the **Close Activation** button. The **Layout** tab will reappear in place
     of the **Map** tab.
-    ![] (images/close_activation.png)
+    ![] (../images/close_activation.png)
 8.  Use the **Insert** tab to add the following elements by clicking first on
     the tab buttons and then double-clicking on the map where you want the
     element to display:
@@ -830,7 +830,7 @@ the design process when you are trying out different ideas.
     layout may look something like this, but do *NOT* try to make it
     look exactly the same. Just make sure it has all of the requested
     elements:  
-    ![](images/lab1_fig16.png)
+    ![](../images/lab1_fig16.png)
 
 Once you have completed your map, save your .aprx project file.
 
