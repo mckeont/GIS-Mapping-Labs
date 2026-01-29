@@ -57,7 +57,7 @@ workspace folder. Unzip all of the zip files.
 ## Exploring Coordinate Reference Systems (CRSs) in the Catalog View
 
 1.  Open ArcGIS Pro and create a new project with a **Map** template.
-    Set the location to your workspace folder for Lab 2.  Do not create a new folder for this project.
+    Set the location to your workspace folder for Lab 2.  
 2.  On the **View** tab on the ribbon, click the **Catalog** pane. The      **Catalog** pane
     has similar functionality to the catalog view, in a more compact side 
     pane that does not obstruct an active layout or map view. 
