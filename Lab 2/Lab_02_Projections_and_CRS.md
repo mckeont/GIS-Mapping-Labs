@@ -60,7 +60,7 @@ workspace folder. Unzip all of the zip files.
     Set the location to your workspace folder for Lab 2.  
 2.  On the **View** tab on the ribbon, click the **Catalog** pane if it isn't visible on your dashboard.
 3.  In the **Catalog** pane, navigate to your workspace folder.  Add the 
-    PhiladelphiaStreetCenterlines2022.shp shapefile to your map by dragging the file to the **Contents** pane or the map window (either will have the same effect). Remove the basemap layers from your map.
+    PhiladelphiaStreetCenterlines shapefile to your map by dragging the file to the **Contents** pane or the map window (either will have the same effect). Remove the basemap layers from your map.
 4.  Zoom in and explore the streets data – you can see the individual
     street segments.
 5.  Right click on the streets layer on the **Contents** pane and go to 
