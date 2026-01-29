@@ -66,7 +66,7 @@ workspace folder. Unzip all of the zip files.
 5.  Right click on the streets layer on the **Contents** pane and go to 
     **Properties**.
 6.  In the **Layer Properties** box, click on the **Source** tab, and then 
-    click on the arrow to expand the **Spatial Reference** section. This contains information on the projection and coordinate system for the data file. Note the top line that specfies the Projected coordinate system: 
+    click on the arrow to expand the **Spatial Reference** section. This contains information on the projection and coordinate system for the data file. Note the top line that specifies the Projected coordinate system: 
     `WGS 1984`.
     This is a code indicating the data file is in the WGS84. Other information below indicates the specific
     parameters for this CRS, i.e. the datum used (D WGS 1984), the angular unit (degree) and so on.
