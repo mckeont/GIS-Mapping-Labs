@@ -543,7 +543,7 @@ the limitations of each.
 
 ## Deliverables
 
-**Turn in a report in the format described in the syllabus.**
+**Turn in a report in the format described in Lab Instructions in Module 1**
 
 Be sure to include the map with four global projections.
 
