@@ -197,8 +197,6 @@ Fundamentals*.](../images/GisLayerCakeBolstad.png)
 
 ![](../images/create_catalog_template.png)
 
-../images/GisLayerCakeBolstad.png
-
 In ArcGIS, spatial layers are added to a map. As we will see,
 multiple map frames can be added to a single layout. 
 
