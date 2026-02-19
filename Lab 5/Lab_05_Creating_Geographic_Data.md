@@ -94,7 +94,7 @@ You are now ready to begin placing **ground control points** (GCPs). The
 GCPs link coordinates from the towns shapefile (already referenced) with the image of the historical map (not yet referenced).
 
 1.  On the **Georeference** tab, click the **Add Control Points** button.
-    ![](images/control_points.png)
+    ![]((../images/control_points.png)
 2.  Place the first GCP:
     1.  Look at the modern towns layer and the map to identify (by
         shape, or possibly by name - you will need to turn on labels to identify these) a town that is the same in both data sources.
