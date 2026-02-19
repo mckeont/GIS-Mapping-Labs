@@ -75,7 +75,7 @@ current shapefile of lakes. This process will take a few steps.
         properties in the next step. Even though you can't see an image,
         keep following the instructions. You won't be able to see the
         image until you begin the Georeferencing process.
-6.  Make sure the `Worcester_towns.jpg` layer is selected in the **Contents** pane.  On the contextual **Appearance** tab, change the **Resampling Type** to **Cubic**.  This will improve the quality of the display. 
+6.  Make sure the `Worcester_towns.jpg` layer is selected in the **Contents** pane.  On the **raster layer** tab, change the **Resampling Type** to **Cubic**.  This will improve the quality of the display. 
 ![](images/lab5_fig2.png) 
 
 The data are now available in your map and you are ready to
