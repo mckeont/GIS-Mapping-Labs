@@ -63,7 +63,7 @@ current shapefile of lakes. This process will take a few steps.
         Even though this is just an image file, not a GIS data layer,
         the file will show up in the **Add Data** dialog box as a suitable
         data source. **Note:** You will need to single click on the  `Worcester_towns.jpg` layer to select it as a source. Do not double-click into the file.
-        ![](images/lab5_fig1.png) 
+        ![](../images/lab5_fig1.png) 
         
     2.  By now you're familiar with the Unknown Spatial Reference
         warning. This is OK\! This is the problem that you are about to
@@ -76,19 +76,19 @@ current shapefile of lakes. This process will take a few steps.
         keep following the instructions. You won't be able to see the
         image until you begin the Georeferencing process.
 6.  Make sure the `Worcester_towns.jpg` layer is selected in the **Contents** pane.  On the **raster layer** tab, change the **Resampling Type** to **Cubic**.  This will improve the quality of the display. 
-![](images/lab5_fig2.png) 
+![](../images/lab5_fig2.png) 
 
 The data are now available in your map and you are ready to
 begin Georeferencing.
 
 1.  With the `Worcester_towns.jpg` layer still selected, click the **Imagery** tab and select **Georeference**. The **Georeference** tab will appear in place of the **Map** tab. The Georeferencing tools are contained here, and each group of the tab corresponds to a step in the process. 
 2.  Notice that the Georeferencing window on your map shows you details about the layer you are currently working on, which is currently `Worcester_towns.jpg`.
-![](images/lab5_fig3.png) 
+![](../images/lab5_fig3.png) 
 
 3.  On the **Georeference** tab, select **Fit to Display**. The JPEG image will now appear in the visible part of
     the map canvas, along with the rest of the layers you added. However, the scale and position of the historic towns layer is incorrect relative to the shapefile layer. 
 
-![](images/lab5_fig4.png) 
+![](../images/lab5_fig4.png) 
 
 You are now ready to begin placing **ground control points** (GCPs). The
 GCPs link coordinates from the towns shapefile (already referenced) with the image of the historical map (not yet referenced).
@@ -119,7 +119,7 @@ GCPs link coordinates from the towns shapefile (already referenced) with the ima
     Click the **Control Point Table** button  on the **Georeference**
     tab to view the table with all the GCPs and their residuals.
     
-    ![Control Point Table](images/control_point_button.png)
+    ![Control Point Table](../images/control_point_button.png)
     
 
     The residual tells you how much discrepancy lies between
@@ -128,12 +128,12 @@ GCPs link coordinates from the towns shapefile (already referenced) with the ima
     
 5.  The RMS error values are displayed in the georeferencing box in the map window. Note that if you delete or temporarily remove a GCP, the RMS error will update in that box.
 
-    ![](images/lab5_fig5.png)
+    ![](../images/lab5_fig5.png)
     
     You may find that the fit is be improved by deleting some points. If the RMS error reaches 0, you have perfect fit. You can delete control points that
     have a very large residual by highlighting them in the control point table and clicking the **Delete Selected** button.
     
-    ![](images/lab5_fig6.png)
+    ![](../images/lab5_fig6.png)
     
 6.  Continue placing additional GCPs. Ideally, your control points will
     be well-distributed across the map. We can't know the number of
@@ -146,7 +146,7 @@ GCPs link coordinates from the towns shapefile (already referenced) with the ima
     JPEG as a new image.
     1.  Select **Save as New** from the Georeference tab to export the raster.
     
-    ![](images/save_as_new_georeference.png)
+    ![](../images/save_as_new_georeference.png)
     
     2.  Specify the name and location of your georeferenced raster in your Lab 5 folder. You do not need to type in a file extension.
     3.  Make sure the coordinate system is set to `NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001`. You should not need to change this.
@@ -156,7 +156,7 @@ GCPs link coordinates from the towns shapefile (already referenced) with the ima
         should be 75).
     6.  Click Export. The georeferenced TIFF should automatically be added to your map.
     7.  Save your control points as a text file by clicking the **Export Control Points** button, and navigating to your workspace folder. You will be able to import them again if you lose your work at any point. End the georeferencing process by clicking the **Close Georeference** button.
-    ![](images/close_georeference.png)
+    ![](../images/close_georeference.png)
     8.  Remove the original imagery layer from the map, and view the georeferenced historical map on top of the town shapefile.
 
 ## Digitizing
@@ -190,15 +190,15 @@ a brief description of the steps follow. Review the steps below and watch the vi
     folder and added to the **Contents** pane. (If it does not get added to the map automatically, you can use the **Add Data** button as usual.)
 6.  Click on the **Edit** tab on the ribbon.
 7.  Click the **Create** button to open the **Create Features** pane. Click on the `Lakes_auburn` layer to start creating features in that layer. Make sure that the **polygon** tool is selected.
-    ![](images/lab5_fig7.png)
+    ![](../images/lab5_fig7.png)
 
 8.  Select the **line** tool on the construction toolbar to draw straight line segments.
-    ![](images/line_tool.png)
+    ![](../images/line_tool.png)
 
 9.  Begin tracing the outline of one of the lakes in the town of Auburn.
     The lakes are darker shaded polygons, for example those found within
     the areas circled below. 
-    ![](images/lab5_fig8.png) 
+    ![](../images/lab5_fig8.png) 
     
 10. Each click will add a **vertex** to the
     polygon. Draw the polygon with a series of closely spaced clicks.
