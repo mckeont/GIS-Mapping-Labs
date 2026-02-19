@@ -65,7 +65,7 @@ current shapefile of lakes. This process will take a few steps.
         data source. **Note:** You will need to single click on the  `Worcester_towns.jpg` layer to select it as a source. Do not double-click into the file.
         ![](images/lab5_fig1.png) 
         
-    2.  You will get the by now familiar Unknown Spatial Reference
+    2.  By now you're familiar with the Unknown Spatial Reference
         warning. This is OK\! This is the problem that you are about to
         fix\! Click the X to dismiss the dialog.
     3.  ***The image will not appear in the map initially.*** Since it
