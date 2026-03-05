@@ -75,21 +75,7 @@ window, click on its name, and then click on the star to the right of it.
 It will now be in your favorites for the next time you wish to select it.
 
 ![](images/crs_favorites.png)
-
-## Adjust the Environment Settings
-
-Now, we will set up the Environment in ArcGIS. This will specify a
-workspace folder for all of the data files generated when running
-different operations and make it easier to save output files.
-
-1.  On the **Analysis** tab, choose **Environments**.
-2.  Under **Workspace**, set the **Current and Scratch Workspaces** to your
-    workspace folder (See example below; your path will differ.) You do
-    not need to modify any of the other fields. Click OK. Each time you
-    run an operation in this project, the output will be saved to your workspace. Be
-    sure to set up your **Environment** in ArcGIS each time you begin a new project.
-
-![](.../images/lab6_fig1.png) 
+ 
 
 ## Retrieve Line Length and Polygon Area Measurements
 
