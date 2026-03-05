@@ -89,7 +89,7 @@ different operations and make it easier to save output files.
     run an operation in this project, the output will be saved to your workspace. Be
     sure to set up your **Environment** in ArcGIS each time you begin a new project.
 
-![](images/lab6_fig1.png) 
+![](.../images/lab6_fig1.png) 
 
 ## Retrieve Line Length and Polygon Area Measurements
 
