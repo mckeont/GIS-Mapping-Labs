@@ -39,7 +39,7 @@ federal data geoportal administered by the US Geological Survey (USGS).
     > Products (3DEP)** and then check the box for **1 arc-second DEM**.
     > Uncheck the other boxes.
 
-![](images/lab7_fig1.png)
+![](../images/lab7_fig1.png)
 
 3.  > In the Search location text bar type in 'Delaware County,
     > Pennsylvania' and zoom to Delaware County.
@@ -48,12 +48,12 @@ federal data geoportal administered by the US Geological Survey (USGS).
 4.  > In the pop up box for Delaware County click on the **Find Products**
     > link.
 
-![](images/lab7_fig3.png)
+![](../images/lab7_fig3.png)
 
 5.  > On the left side of the window click on **Download** to download the
     > DEM in a tif format (54.7 MB).
     
-![](images/lab7_fig4.png)
+![](../images/lab7_fig4.png)
 
 > **Because the DEM data do not adhere to county boundaries, we will
 > need to download an additional DEM data set to cover the entirety of
@@ -74,15 +74,15 @@ We will acquire the land cover data from the the [Multi-Resolution Land Characte
 
 1.  Go to the MRLC viewer, and specify the extent to Continental US.
 
-![](images/MRLC.png)
+![](../images/MRLC.png)
 
 2.  On the map, click the **Open Data Download Tool** button.  This will open a side panel that will help you select the area from which you will download data.
 
-![](images/MRLC2.png)
+![](../images/MRLC2.png)
 
 3. Zoom in on the map to southeastern Pennsylvania.  Draw a box that completely contains our study area by right-clicking to place one corner of the box, and then right-clicking again to place the second.  
 
-![](images/lab7_fig7.png)
+![](../images/lab7_fig7.png)
 
 4. On the panel on the right-hand side, check the **Land Cover** box, and then check the **2016 Land Cover ONLY** button.
 
@@ -95,12 +95,12 @@ files in your workspace folder (2 elevation grids, land cover, and municipalitie
 ## Explore the Data 
 
 Open ArcGIS Pro and explore each of the downloaded data sets in the catalog view. Note that
-raster data are symbolized in the catalog tree using a grid symbol ![](images/raster_dataset_icon.png).
+raster data are symbolized in the catalog tree using a grid symbol ![](../images/raster_dataset_icon.png).
 
 View the land cover raster (with .tiff file extention). Zoom in so you can
 see individual grid cells.
 
-![](images/lab7_fig8.png)
+![](../images/lab7_fig8.png)
 
 Now view the land cover attribute table. The `VALUE` field in the table,
 and the different colors in the image, correspond to different land
@@ -117,7 +117,7 @@ sea level.
 Open a new map and add the two elevation grids. They should appear adjacent
 to each other.
 
-![](images/lab7_fig9.png)
+![](../images/lab7_fig9.png)
 
 Here we will use the mosaic operation to merge the two grids into a
 single grid.
@@ -129,7 +129,7 @@ single grid.
     > the two elevation grids.  For **Output Location** select your Lab7 workspace folder. For **Raster Dataset Name with Extension** enter
     > 'elev_mo'. For Number of Bands enter 1. Click Run.
 
-![](images/lab7_fig10.png)
+![](../images/lab7_fig10.png)
 
 3.  > View the new grid. It should appear as the two original grids
     > merged together.
@@ -153,7 +153,7 @@ Here, we will extract the elevation data for Delaware County.
 
 4.  > Remove the original municipalities layer from the map.
 
-![](images/lab7_fig11.png)
+![](../images/lab7_fig11.png)
 
 5.  > Open the **Toolbox** and go to **Spatial Analyst Tools→Extraction→Extract by Mask**.
 
@@ -163,7 +163,7 @@ Here, we will extract the elevation data for Delaware County.
 
 7.  > Turn off all the layers except `del_elev` and view the new raster.
 
-![](images/lab7_fig12.png)
+![](../images/lab7_fig12.png)
 
 
 **Now, we will mask the land cover data to Delaware County, but we will
@@ -179,7 +179,7 @@ different CRS.**
 4.  > Repeat the steps above to mask the land cover data to Delaware
     > County. Call the output raster 'del_land'.
 
-![](images/lab7_fig13.png)
+![](../images/lab7_fig13.png)
 
 5.  > Close the map.
 
@@ -220,7 +220,7 @@ viewing the surface from an airplane.
     > rugged terrain in the north and west of the county and the stream
     > valleys which flow south towards the Delaware River.
 
-![](images/lab7_fig14.png)
+![](../images/lab7_fig14.png)
 
  
 4.  > You can also exaggerate the vertical height to improve the
@@ -244,17 +244,17 @@ top'.
     > lab exercises.) Choose a multi-color color ramp like the one shown
     > here:
 
-![](images/lab7_fig15.png) 
+![](../images/lab7_fig15.png) 
 
 2.  > Now click on the hillshade grid and go to
     > the contextual **Appearance** tab. Change the transparency to 30%. 
     
-![](images/lab7_fig16.png)
+![](../images/lab7_fig16.png)
     
      Your display should now look something like
     > this:
 
-![](images/lab7_fig17.png) 
+![](../images/lab7_fig17.png) 
 
 3.  > You can also add land use to further enhance the visualization.
     > Add the `del_land_utm` grid to the map and move it between the
@@ -263,7 +263,7 @@ top'.
     > grids so that both can be seen simlutaneously. (Start with land
     > use transparency=40% and hillshade transparency=50%).
 
-![](images/lab7_fig18.png)
+![](../images/lab7_fig18.png)
 
 4.  > Now try displaying only the developed area in the land use grid to
     > show where the cities are in relation to the elevation
@@ -274,7 +274,7 @@ top'.
     > transparency setting on the **Display** tab to make it less
     > transparent (say, 20%). 
 
-![](images/lab7_fig19.png)
+![](../images/lab7_fig19.png)
 
 ## Calculating Slope
 
@@ -291,7 +291,7 @@ can be measured in degrees or percent.
 3.  > Examine the resulting slope grid. Note that the steepest slopes
     > occur along the streams.
 
-![](images/lab7_fig20.png)
+![](../images/lab7_fig20.png)
 
 
 ## Summarizing Grid Data using a Zonal Function
@@ -319,7 +319,7 @@ category in Delaware County.
     > High Intensity land (Value=24) is 1.56°, whereas for Deciduous
     > Forest land (Value=41) the mean slope is 6.52°.
 
-![](images/lab7_fig21.png)
+![](../images/lab7_fig21.png)
 
 4.  > The `COUNT` field is the number of grid cells in that zone (here,
     > land use) and the `AREA` field is the area. For instance, the number
@@ -355,7 +355,7 @@ slope by municipality.
     > the average steepest slopes occur in the central and western part
     > of the county.
 
-![](images/lab7_fig22.png)
+![](../images/lab7_fig22.png)
 
 # ASSIGNMENT
 
