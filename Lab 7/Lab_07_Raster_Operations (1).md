@@ -70,7 +70,7 @@ These steps should yield two zip files:
 
 **Next, acquire the land cover data.**
 
-We will acquire the land cover data from the the [Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/viewer/) (<https://www.mrlc.gov/viewer/>).
+This is also on canvas, and it was acquired from [Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/viewer/) (<https://www.mrlc.gov/viewer/>).
 
 1.  Go to the MRLC viewer, and specify the extent to Continental US.
 
