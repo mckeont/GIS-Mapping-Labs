@@ -43,8 +43,7 @@ federal data geoportal administered by the US Geological Survey (USGS).
 
 3.  > In the Search location text bar type in 'Delaware County,
     > Pennsylvania' and zoom to Delaware County.
-
-![](images/lab7_fig2.png)
+![](../images/lab7_fig2.png)
 
 4.  > In the pop up box for Delaware County click on the **Find Products**
     > link.
