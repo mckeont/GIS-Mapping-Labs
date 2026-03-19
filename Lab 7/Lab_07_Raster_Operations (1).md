@@ -27,7 +27,7 @@ and download the following file:
 
 **Next, acquire the elevation data.**
 
-We will download raster elevation data from [The National
+The DEM is saved on canvas, however you may also download raster elevation data from [The National
 Map](https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map) (<https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map>), the US
 federal data geoportal administered by the US Geological Survey (USGS).
 
